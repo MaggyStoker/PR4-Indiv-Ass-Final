@@ -1,0 +1,59 @@
+* { margin: 0; padding: 0; border: 0; font-size: 100%; }
+
+@font-face {
+	font-family: 'lancelot';
+	src: url(../font/Lancelot/Lancelot-Regular.ttf) format('Truetype');
+}
+@font-face {
+	font-family: 'cormantGaramond_regular';
+	src: url('../font/Cormorant_Garamond/CormorantGaramond-Regular.ttf') format('Truetype');
+}
+
+
+body {
+    background-image:url(OldPaper.jpg);
+    background-size: cover;
+}
+
+
+#container {
+    position: relative;
+    display: block;
+    width: 90%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.contentleft{
+    float: left;   
+}
+
+h1 {
+	font-size: 38pt;
+    color:black;
+	text-align: center;
+    font-family:'lancelot', serif;
+}
+
+h3 {
+    font-family:'cormantGaramond_regular', serif;
+	font-size: 15pt;
+	text-align: center;
+    margin-bottom: 50px; 
+}
+
+p{
+   font-family:'cormantGaramond_regular', serif;
+   font-size: 11pt;   
+}
+
+a{
+    color: black;
+}
+
+
+footer{
+    text-align: center;
+    margin-bottom: 20xp;
+}
+
